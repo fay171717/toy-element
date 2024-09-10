@@ -13,3 +13,4 @@ export default defineConfig({
   },
 });
 
+// "test": "vitest --coverage"
