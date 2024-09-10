@@ -7,7 +7,7 @@ type Story = StoryObj<typeof ErButton> & { argTypes?: ArgTypes };
 
 const meta: Meta<typeof ErButton> = {
   title: "Example/Button",
-  component: ErButton,
+/*   component: ErButton, */
   tags: ["autodocs"],
   argTypes: {
     type: {
@@ -76,6 +76,13 @@ export const Default: Story & { args: { content: string } } = {
       `<er-button v-bind="args">{{args.content}}</er-button>`
     ),
   }),
+  play:async ({canvasElement,args,step})=>{
+    const canvas = within(canvasElement);
+      await step("click btn",async()=>{
+        await userEvent.click(canvas.getByRole("button"))
+      });
+      expect(args.onClick).toHaveBeenCalled();
+  }
  
 };
 
