@@ -1,7 +1,7 @@
 import type { Meta, StoryObj, ArgTypes } from "@storybook/vue3";
 import { fn, within, userEvent, expect, clearAllMocks } from "@storybook/test";
 import {set} from 'lodash-es'
-import { ErButton } from 'toy-element'
+import { ErButton,ErButtonGroup } from 'toy-element'
 import exp from "constants";
 import { faL } from "@fortawesome/free-solid-svg-icons";
 
@@ -192,6 +192,55 @@ export const Circle: Story = {
 Circle.parameters = {};
 
 
-
+export const Group: Story & { args: { content1: string; content2: string } } = {
+  argTypes: {
+    groupType: {
+      control: { type: "select" },
+      options: ["primary", "success", "warning", "danger", "info", ""],
+    },
+    groupSize: {
+      control: { type: "select" },
+      options: ["large", "default", "small", ""],
+    },
+    groupDisabled: {
+      control: "boolean",
+    },
+    content1: {
+      control: { type: "text" },
+      defaultValue: "Button1",
+    },
+    content2: {
+      control: { type: "text" },
+      defaultValue: "Button2",
+    },
+  },
+  args: {
+    round: true,
+    content1: "Button1",
+    content2: "Button2",
+  },
+  render: (args) => ({
+    components: { ErButton, ErButtonGroup },
+    setup() {
+      return { args };
+    },
+    template: container(`
+       <er-button-group :type="args.groupType" :size="args.groupSize" :disabled="args.groupDisabled">
+         <er-button v-bind="args">{{args.content1}}</er-button>
+         <er-button v-bind="args">{{args.content2}}</er-button>
+       </er-button-group>
+    `),
+  }),
+  play: async ({ canvasElement, args, step }) => {
+    const canvas = within(canvasElement);
+    await step("click btn1", async () => {
+      await userEvent.click(canvas.getByText("Button1"));
+    });
+    await step("click btn2", async () => {
+      await userEvent.click(canvas.getByText("Button2"));
+    });
+    expect(args.onClick).toHaveBeenCalled();
+  },
+};
 
 export default meta;
