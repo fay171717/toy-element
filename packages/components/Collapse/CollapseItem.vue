@@ -2,7 +2,8 @@
 import type { CollapseItemProps } from "./types";
 import { computed, inject } from "vue";
 import { COLLAPSE_CTX_KEY } from "./constans";
-import { ErIcon } from "toy-element";
+import transitionEvents from "./transitionEvents";
+import ErIcon from "../Icon/Icon.vue";
 defineOptions({ name: "ErCollapse" });
 const props = defineProps<CollapseItemProps>();
 const ctx = inject(COLLAPSE_CTX_KEY, void 0);
@@ -38,11 +39,13 @@ function handleClick() {
       <er-icon icon="angle-right" class="header-angle" />
     </div>
 
-    <div class="er-collapse-item__wapper" v-show="isActive">
-      <div class="er-collapse-item__content" :id="`item-content-${name}`">
-        <slot></slot>
+    <transition name ="slide" v-on="transitionEvents">
+      <div class="er-collapse-item__wapper" v-show="isActive">
+        <div class="er-collapse-item__content" :id="`item-content-${name}`">
+          <slot></slot>
+        </div>
       </div>
-    </div>
+    </transition>
   </div>
 </template>
 <style>

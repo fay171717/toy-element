@@ -27,6 +27,9 @@ const handleBtnClickThrottle = throttle(handleBtnClick,props.throttleDuration,{t
 const iconStyle = computed(()=>({marginRight:slots ? "6px":"0px"}))
 defineExpose<ButtonInstance>({
   ref:_ref,
+  disabled,
+  size,
+  type
 
 });
 </script>

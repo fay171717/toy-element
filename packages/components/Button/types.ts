@@ -25,7 +25,13 @@ export interface ButtonEmits {
   (e:'click',val:MouseEvent):void;
 }
 export interface ButtonInstance{
-  ref:Ref<HTMLButtonElement | void>
+  ref:Ref<HTMLButtonElement | void>;
+  /* 给使用者拿到使用的 */
+  disabled:ComputedRef<boolean>;
+  size:ComputedRef<ButtonSize | "">
+  type:ComputedRef<ButtonType | "">
+
+  
 }
 
 export interface ButtonGroupProps {

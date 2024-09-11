@@ -1,4 +1,11 @@
-import { ErButton,ErIcon,ErButtonGroup,ErCollapse,ErCollapseItem } from "@toy-element/components";
+import {
+     ErButton,
+     ErIcon,
+     ErButtonGroup,
+     ErCollapse,
+     ErCollapseItem,
+     ErAlert
+     } from "@toy-element/components";
 import type {Plugin} from 'vue'
 
 export default[
@@ -6,6 +13,7 @@ export default[
     ErIcon,
     ErButtonGroup,
     ErCollapseItem,
-    ErCollapse
+    ErCollapse,
+    ErAlert
 ]as Plugin[];
   
