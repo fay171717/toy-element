@@ -9,7 +9,7 @@ type Story = StoryObj<typeof ErButton> & { argTypes?: ArgTypes };
 
 const meta: Meta<typeof ErButton> = {
   title: "Example/Button",
-  /* component: ErButton, */
+  component: ErButton,
   tags: ["autodocs"],
   argTypes: {
     type: {
