@@ -9,8 +9,12 @@ class ErUIError extends Error {
 }
 
 //告诉用户什么地方出错了
-export function throwError(scope: string, msg: string) {
-  throw new ErUIError(`[${scope}] ${msg}`);
+export function createErUIError(scope: string, msg: string) {
+  return  new ErUIError(`[${scope}] ${msg}`);
+}
+
+export function throwError(scope:string,msg:string){
+  throw createErUIError(scope,msg)
 }
 
 //重载
@@ -21,7 +25,7 @@ export function debugWarn(scope: string, msg: string): void;
 export function debugWarn(scope: string | Error, msg?: string) {
   //如果
   if (process.env.NODE_ENV !== "production") {
-    const err = isString(scope) ? new ErUIError(`[${scope}] ${msg}`) : scope;
+    const err = isString(scope) ?  createErUIError(scope,msg!) : scope;
     console.warn(err);
   }
 }
