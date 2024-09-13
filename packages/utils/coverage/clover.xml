@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1726129369960" clover="3.2.0">
-  <project timestamp="1726129369961" name="All files">
+<coverage generated="1726216221596" clover="3.2.0">
+  <project timestamp="1726216221596" name="All files">
     <metrics statements="76" coveredstatements="74" conditionals="11" coveredconditionals="11" methods="9" coveredmethods="8" elements="96" coveredelements="93" complexity="0" loc="76" ncloc="76" packages="1" files="3" classes="3"/>
     <file name="error.ts" path="E:\toy-element\packages\utils\error.ts">
       <metrics statements="31" coveredstatements="31" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>

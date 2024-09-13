@@ -4,7 +4,8 @@ import {
      ErButtonGroup,
      ErCollapse,
      ErCollapseItem,
-     ErAlert
+     ErAlert,
+     ErTooltip
      } from "@toy-element/components";
 import type {Plugin} from 'vue'
 
@@ -14,6 +15,7 @@ export default[
     ErButtonGroup,
     ErCollapseItem,
     ErCollapse,
-    ErAlert
+    ErAlert,
+    ErTooltip
 ]as Plugin[];
   
