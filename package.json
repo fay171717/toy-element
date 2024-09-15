@@ -1,6 +1,6 @@
 {
   "name": "@toy-element/workspace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "docs:build": "pnpm --filter @toy-element/docs build",
     "test": "run-s test-utils test-comp",
     "build": "pnpm --filter toy-element build",
-    "release":"release-it"
+    "release": "release-it"
   },
   "keywords": [],
   "author": "",
