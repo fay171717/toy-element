@@ -1,6 +1,7 @@
-import type { Preview } from "@storybook/vue3";
-import "toy-element/dist/index.css";
-const preview: Preview = {
+import "toy-element/dist/theme/index.css";
+
+/** @type { import('@storybook/vue3').Preview } */
+const preview = {
   parameters: {
     controls: {
       matchers: {

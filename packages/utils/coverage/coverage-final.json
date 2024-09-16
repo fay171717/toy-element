@@ -1,4 +1,685 @@
-{"E:\\toy-element\\packages\\utils\\error.ts": {"path":"E:\\toy-element\\packages\\utils\\error.ts","all":false,"statementMap":{"0":{"start":{"line":1,"column":0},"end":{"line":1,"column":37}},"1":{"start":{"line":2,"column":0},"end":{"line":2,"column":0}},"2":{"start":{"line":3,"column":0},"end":{"line":3,"column":31}},"3":{"start":{"line":4,"column":0},"end":{"line":4,"column":32}},"4":{"start":{"line":5,"column":0},"end":{"line":5,"column":16}},"5":{"start":{"line":6,"column":0},"end":{"line":6,"column":19}},"6":{"start":{"line":7,"column":0},"end":{"line":7,"column":28}},"7":{"start":{"line":8,"column":0},"end":{"line":8,"column":3}},"8":{"start":{"line":9,"column":0},"end":{"line":9,"column":1}},"9":{"start":{"line":10,"column":0},"end":{"line":10,"column":0}},"10":{"start":{"line":11,"column":0},"end":{"line":11,"column":13}},"11":{"start":{"line":12,"column":0},"end":{"line":12,"column":61}},"12":{"start":{"line":13,"column":0},"end":{"line":13,"column":45}},"13":{"start":{"line":14,"column":0},"end":{"line":14,"column":1}},"14":{"start":{"line":15,"column":0},"end":{"line":15,"column":0}},"15":{"start":{"line":16,"column":0},"end":{"line":16,"column":52}},"16":{"start":{"line":17,"column":0},"end":{"line":17,"column":34}},"17":{"start":{"line":18,"column":0},"end":{"line":18,"column":1}},"18":{"start":{"line":19,"column":0},"end":{"line":19,"column":0}},"19":{"start":{"line":20,"column":0},"end":{"line":20,"column":4}},"20":{"start":{"line":21,"column":0},"end":{"line":21,"column":46}},"21":{"start":{"line":22,"column":0},"end":{"line":22,"column":18}},"22":{"start":{"line":23,"column":0},"end":{"line":23,"column":60}},"23":{"start":{"line":24,"column":0},"end":{"line":24,"column":9}},"24":{"start":{"line":25,"column":0},"end":{"line":25,"column":64}},"25":{"start":{"line":26,"column":0},"end":{"line":26,"column":6}},"26":{"start":{"line":27,"column":0},"end":{"line":27,"column":46}},"27":{"start":{"line":28,"column":0},"end":{"line":28,"column":71}},"28":{"start":{"line":29,"column":0},"end":{"line":29,"column":22}},"29":{"start":{"line":30,"column":0},"end":{"line":30,"column":3}},"30":{"start":{"line":31,"column":0},"end":{"line":31,"column":1}}},"s":{"0":1,"1":1,"2":1,"3":1,"4":2,"5":2,"6":2,"7":2,"8":1,"9":1,"10":1,"11":1,"12":2,"13":2,"14":1,"15":1,"16":1,"17":1,"18":1,"19":1,"20":1,"21":1,"22":1,"23":1,"24":1,"25":2,"26":2,"27":2,"28":2,"29":2,"30":2},"branchMap":{"0":{"type":"branch","line":4,"loc":{"start":{"line":4,"column":2},"end":{"line":8,"column":3}},"locations":[{"start":{"line":4,"column":2},"end":{"line":8,"column":3}}]},"1":{"type":"branch","line":12,"loc":{"start":{"line":12,"column":7},"end":{"line":14,"column":1}},"locations":[{"start":{"line":12,"column":7},"end":{"line":14,"column":1}}]},"2":{"type":"branch","line":16,"loc":{"start":{"line":16,"column":7},"end":{"line":18,"column":1}},"locations":[{"start":{"line":16,"column":7},"end":{"line":18,"column":1}}]},"3":{"type":"branch","line":25,"loc":{"start":{"line":25,"column":7},"end":{"line":31,"column":1}},"locations":[{"start":{"line":25,"column":7},"end":{"line":31,"column":1}}]},"4":{"type":"branch","line":28,"loc":{"start":{"line":28,"column":30},"end":{"line":28,"column":65}},"locations":[{"start":{"line":28,"column":30},"end":{"line":28,"column":65}}]},"5":{"type":"branch","line":28,"loc":{"start":{"line":28,"column":61},"end":{"line":28,"column":71}},"locations":[{"start":{"line":28,"column":61},"end":{"line":28,"column":71}}]}},"b":{"0":[2],"1":[2],"2":[1],"3":[2],"4":[1],"5":[1]},"fnMap":{"0":{"name":"ErUIError","decl":{"start":{"line":4,"column":2},"end":{"line":8,"column":3}},"loc":{"start":{"line":4,"column":2},"end":{"line":8,"column":3}},"line":4},"1":{"name":"createErUIError","decl":{"start":{"line":12,"column":7},"end":{"line":14,"column":1}},"loc":{"start":{"line":12,"column":7},"end":{"line":14,"column":1}},"line":12},"2":{"name":"throwError","decl":{"start":{"line":16,"column":7},"end":{"line":18,"column":1}},"loc":{"start":{"line":16,"column":7},"end":{"line":18,"column":1}},"line":16},"3":{"name":"debugWarn","decl":{"start":{"line":25,"column":7},"end":{"line":31,"column":1}},"loc":{"start":{"line":25,"column":7},"end":{"line":31,"column":1}},"line":25}},"f":{"0":2,"1":2,"2":1,"3":2}}
-,"E:\\toy-element\\packages\\utils\\index.ts": {"path":"E:\\toy-element\\packages\\utils\\index.ts","all":false,"statementMap":{"0":{"start":{"line":1,"column":0},"end":{"line":1,"column":25}},"1":{"start":{"line":2,"column":0},"end":{"line":2,"column":38}},"2":{"start":{"line":3,"column":0},"end":{"line":3,"column":39}},"3":{"start":{"line":4,"column":0},"end":{"line":4,"column":0}},"4":{"start":{"line":5,"column":0},"end":{"line":5,"column":44}},"5":{"start":{"line":6,"column":0},"end":{"line":6,"column":10}},"6":{"start":{"line":7,"column":0},"end":{"line":7,"column":12}},"7":{"start":{"line":8,"column":0},"end":{"line":8,"column":39}},"8":{"start":{"line":9,"column":0},"end":{"line":9,"column":21}},"9":{"start":{"line":10,"column":0},"end":{"line":10,"column":6}},"10":{"start":{"line":11,"column":0},"end":{"line":11,"column":4}},"11":{"start":{"line":12,"column":0},"end":{"line":12,"column":16}},"12":{"start":{"line":13,"column":0},"end":{"line":13,"column":73}},"13":{"start":{"line":14,"column":0},"end":{"line":14,"column":4}},"14":{"start":{"line":15,"column":0},"end":{"line":15,"column":3}},"15":{"start":{"line":16,"column":0},"end":{"line":16,"column":0}},"16":{"start":{"line":17,"column":0},"end":{"line":17,"column":36}},"17":{"start":{"line":18,"column":0},"end":{"line":18,"column":26}},"18":{"start":{"line":19,"column":0},"end":{"line":19,"column":30}},"19":{"start":{"line":20,"column":0},"end":{"line":20,"column":36}},"20":{"start":{"line":21,"column":0},"end":{"line":21,"column":29}},"21":{"start":{"line":22,"column":0},"end":{"line":22,"column":28}},"22":{"start":{"line":23,"column":0},"end":{"line":23,"column":3}},"23":{"start":{"line":24,"column":0},"end":{"line":24,"column":0}},"24":{"start":{"line":25,"column":0},"end":{"line":25,"column":26}},"25":{"start":{"line":26,"column":0},"end":{"line":26,"column":24}},"26":{"start":{"line":27,"column":0},"end":{"line":27,"column":26}}},"s":{"0":1,"1":1,"2":1,"3":1,"4":1,"5":1,"6":1,"7":1,"8":1,"9":1,"10":1,"11":1,"12":0,"13":0,"14":1,"15":1,"16":1,"17":1,"18":1,"19":1,"20":1,"21":1,"22":1,"23":1,"24":1,"25":1,"26":1},"branchMap":{},"b":{},"fnMap":{"0":{"name":"setup","decl":{"start":{"line":12,"column":2},"end":{"line":14,"column":4}},"loc":{"start":{"line":12,"column":2},"end":{"line":14,"column":4}},"line":12}},"f":{"0":0}}
-,"E:\\toy-element\\packages\\utils\\install.ts": {"path":"E:\\toy-element\\packages\\utils\\install.ts","all":false,"statementMap":{"0":{"start":{"line":1,"column":0},"end":{"line":1,"column":14}},"1":{"start":{"line":2,"column":0},"end":{"line":2,"column":35}},"2":{"start":{"line":3,"column":0},"end":{"line":3,"column":34}},"3":{"start":{"line":4,"column":0},"end":{"line":4,"column":0}},"4":{"start":{"line":5,"column":0},"end":{"line":5,"column":36}},"5":{"start":{"line":6,"column":0},"end":{"line":6,"column":0}},"6":{"start":{"line":7,"column":0},"end":{"line":7,"column":50}},"7":{"start":{"line":8,"column":0},"end":{"line":8,"column":78}},"8":{"start":{"line":9,"column":0},"end":{"line":9,"column":0}},"9":{"start":{"line":10,"column":0},"end":{"line":10,"column":31}},"10":{"start":{"line":11,"column":0},"end":{"line":11,"column":1}},"11":{"start":{"line":12,"column":0},"end":{"line":12,"column":48}},"12":{"start":{"line":13,"column":0},"end":{"line":13,"column":59}},"13":{"start":{"line":14,"column":0},"end":{"line":14,"column":45}},"14":{"start":{"line":15,"column":0},"end":{"line":15,"column":47}},"15":{"start":{"line":16,"column":0},"end":{"line":16,"column":6}},"16":{"start":{"line":17,"column":0},"end":{"line":17,"column":41}},"17":{"start":{"line":18,"column":0},"end":{"line":18,"column":1}}},"s":{"0":1,"1":1,"2":1,"3":1,"4":1,"5":1,"6":1,"7":1,"8":1,"9":1,"10":1,"11":1,"12":2,"13":4,"14":4,"15":4,"16":2,"17":2},"branchMap":{"0":{"type":"branch","line":7,"loc":{"start":{"line":7,"column":7},"end":{"line":11,"column":1}},"locations":[{"start":{"line":7,"column":7},"end":{"line":11,"column":1}}]},"1":{"type":"branch","line":8,"loc":{"start":{"line":8,"column":22},"end":{"line":8,"column":78}},"locations":[{"start":{"line":8,"column":22},"end":{"line":8,"column":78}}]},"2":{"type":"branch","line":8,"loc":{"start":{"line":8,"column":56},"end":{"line":8,"column":73}},"locations":[{"start":{"line":8,"column":56},"end":{"line":8,"column":73}}]},"3":{"type":"branch","line":12,"loc":{"start":{"line":12,"column":27},"end":{"line":18,"column":1}},"locations":[{"start":{"line":12,"column":27},"end":{"line":18,"column":1}}]},"4":{"type":"branch","line":13,"loc":{"start":{"line":13,"column":47},"end":{"line":16,"column":6}},"locations":[{"start":{"line":13,"column":47},"end":{"line":16,"column":6}}]}},"b":{"0":[1],"1":[1],"2":[2],"3":[2],"4":[4]},"fnMap":{"0":{"name":"makeInstaller","decl":{"start":{"line":7,"column":7},"end":{"line":11,"column":1}},"loc":{"start":{"line":7,"column":7},"end":{"line":11,"column":1}},"line":7},"1":{"name":"installer","decl":{"start":{"line":8,"column":22},"end":{"line":8,"column":78}},"loc":{"start":{"line":8,"column":22},"end":{"line":8,"column":78}},"line":8},"2":{"name":"withInstall","decl":{"start":{"line":12,"column":27},"end":{"line":18,"column":1}},"loc":{"start":{"line":12,"column":27},"end":{"line":18,"column":1}},"line":12},"3":{"name":"component.install","decl":{"start":{"line":13,"column":47},"end":{"line":16,"column":6}},"loc":{"start":{"line":13,"column":47},"end":{"line":16,"column":6}},"line":13}},"f":{"0":1,"1":1,"2":2,"3":4}}
+{
+  "E:\\play-element\\packages\\utils\\error.ts": {
+    "path": "E:\\play-element\\packages\\utils\\error.ts",
+    "all": false,
+    "statementMap": {
+      "0": {
+        "start": { "line": 1, "column": 0 },
+        "end": { "line": 1, "column": 37 }
+      },
+      "1": {
+        "start": { "line": 2, "column": 0 },
+        "end": { "line": 2, "column": 0 }
+      },
+      "2": {
+        "start": { "line": 3, "column": 0 },
+        "end": { "line": 3, "column": 31 }
+      },
+      "3": {
+        "start": { "line": 4, "column": 0 },
+        "end": { "line": 4, "column": 32 }
+      },
+      "4": {
+        "start": { "line": 5, "column": 0 },
+        "end": { "line": 5, "column": 16 }
+      },
+      "5": {
+        "start": { "line": 6, "column": 0 },
+        "end": { "line": 6, "column": 19 }
+      },
+      "6": {
+        "start": { "line": 7, "column": 0 },
+        "end": { "line": 7, "column": 28 }
+      },
+      "7": {
+        "start": { "line": 8, "column": 0 },
+        "end": { "line": 8, "column": 3 }
+      },
+      "8": {
+        "start": { "line": 9, "column": 0 },
+        "end": { "line": 9, "column": 1 }
+      },
+      "9": {
+        "start": { "line": 10, "column": 0 },
+        "end": { "line": 10, "column": 0 }
+      },
+      "10": {
+        "start": { "line": 11, "column": 0 },
+        "end": { "line": 11, "column": 13 }
+      },
+      "11": {
+        "start": { "line": 12, "column": 0 },
+        "end": { "line": 12, "column": 61 }
+      },
+      "12": {
+        "start": { "line": 13, "column": 0 },
+        "end": { "line": 13, "column": 45 }
+      },
+      "13": {
+        "start": { "line": 14, "column": 0 },
+        "end": { "line": 14, "column": 1 }
+      },
+      "14": {
+        "start": { "line": 15, "column": 0 },
+        "end": { "line": 15, "column": 0 }
+      },
+      "15": {
+        "start": { "line": 16, "column": 0 },
+        "end": { "line": 16, "column": 52 }
+      },
+      "16": {
+        "start": { "line": 17, "column": 0 },
+        "end": { "line": 17, "column": 34 }
+      },
+      "17": {
+        "start": { "line": 18, "column": 0 },
+        "end": { "line": 18, "column": 1 }
+      },
+      "18": {
+        "start": { "line": 19, "column": 0 },
+        "end": { "line": 19, "column": 0 }
+      },
+      "19": {
+        "start": { "line": 20, "column": 0 },
+        "end": { "line": 20, "column": 4 }
+      },
+      "20": {
+        "start": { "line": 21, "column": 0 },
+        "end": { "line": 21, "column": 46 }
+      },
+      "21": {
+        "start": { "line": 22, "column": 0 },
+        "end": { "line": 22, "column": 18 }
+      },
+      "22": {
+        "start": { "line": 23, "column": 0 },
+        "end": { "line": 23, "column": 60 }
+      },
+      "23": {
+        "start": { "line": 24, "column": 0 },
+        "end": { "line": 24, "column": 9 }
+      },
+      "24": {
+        "start": { "line": 25, "column": 0 },
+        "end": { "line": 25, "column": 64 }
+      },
+      "25": {
+        "start": { "line": 26, "column": 0 },
+        "end": { "line": 26, "column": 6 }
+      },
+      "26": {
+        "start": { "line": 27, "column": 0 },
+        "end": { "line": 27, "column": 46 }
+      },
+      "27": {
+        "start": { "line": 28, "column": 0 },
+        "end": { "line": 28, "column": 71 }
+      },
+      "28": {
+        "start": { "line": 29, "column": 0 },
+        "end": { "line": 29, "column": 22 }
+      },
+      "29": {
+        "start": { "line": 30, "column": 0 },
+        "end": { "line": 30, "column": 3 }
+      },
+      "30": {
+        "start": { "line": 31, "column": 0 },
+        "end": { "line": 31, "column": 1 }
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 2,
+      "5": 2,
+      "6": 2,
+      "7": 2,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 2,
+      "13": 2,
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1,
+      "19": 1,
+      "20": 1,
+      "21": 1,
+      "22": 1,
+      "23": 1,
+      "24": 1,
+      "25": 2,
+      "26": 2,
+      "27": 2,
+      "28": 2,
+      "29": 2,
+      "30": 2
+    },
+    "branchMap": {
+      "0": {
+        "type": "branch",
+        "line": 4,
+        "loc": {
+          "start": { "line": 4, "column": 2 },
+          "end": { "line": 8, "column": 3 }
+        },
+        "locations": [
+          {
+            "start": { "line": 4, "column": 2 },
+            "end": { "line": 8, "column": 3 }
+          }
+        ]
+      },
+      "1": {
+        "type": "branch",
+        "line": 12,
+        "loc": {
+          "start": { "line": 12, "column": 7 },
+          "end": { "line": 14, "column": 1 }
+        },
+        "locations": [
+          {
+            "start": { "line": 12, "column": 7 },
+            "end": { "line": 14, "column": 1 }
+          }
+        ]
+      },
+      "2": {
+        "type": "branch",
+        "line": 16,
+        "loc": {
+          "start": { "line": 16, "column": 7 },
+          "end": { "line": 18, "column": 1 }
+        },
+        "locations": [
+          {
+            "start": { "line": 16, "column": 7 },
+            "end": { "line": 18, "column": 1 }
+          }
+        ]
+      },
+      "3": {
+        "type": "branch",
+        "line": 25,
+        "loc": {
+          "start": { "line": 25, "column": 7 },
+          "end": { "line": 31, "column": 1 }
+        },
+        "locations": [
+          {
+            "start": { "line": 25, "column": 7 },
+            "end": { "line": 31, "column": 1 }
+          }
+        ]
+      },
+      "4": {
+        "type": "branch",
+        "line": 28,
+        "loc": {
+          "start": { "line": 28, "column": 30 },
+          "end": { "line": 28, "column": 65 }
+        },
+        "locations": [
+          {
+            "start": { "line": 28, "column": 30 },
+            "end": { "line": 28, "column": 65 }
+          }
+        ]
+      },
+      "5": {
+        "type": "branch",
+        "line": 28,
+        "loc": {
+          "start": { "line": 28, "column": 61 },
+          "end": { "line": 28, "column": 71 }
+        },
+        "locations": [
+          {
+            "start": { "line": 28, "column": 61 },
+            "end": { "line": 28, "column": 71 }
+          }
+        ]
+      }
+    },
+    "b": { "0": [2], "1": [2], "2": [1], "3": [2], "4": [1], "5": [1] },
+    "fnMap": {
+      "0": {
+        "name": "ErUIError",
+        "decl": {
+          "start": { "line": 4, "column": 2 },
+          "end": { "line": 8, "column": 3 }
+        },
+        "loc": {
+          "start": { "line": 4, "column": 2 },
+          "end": { "line": 8, "column": 3 }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "createErUIError",
+        "decl": {
+          "start": { "line": 12, "column": 7 },
+          "end": { "line": 14, "column": 1 }
+        },
+        "loc": {
+          "start": { "line": 12, "column": 7 },
+          "end": { "line": 14, "column": 1 }
+        },
+        "line": 12
+      },
+      "2": {
+        "name": "throwError",
+        "decl": {
+          "start": { "line": 16, "column": 7 },
+          "end": { "line": 18, "column": 1 }
+        },
+        "loc": {
+          "start": { "line": 16, "column": 7 },
+          "end": { "line": 18, "column": 1 }
+        },
+        "line": 16
+      },
+      "3": {
+        "name": "debugWarn",
+        "decl": {
+          "start": { "line": 25, "column": 7 },
+          "end": { "line": 31, "column": 1 }
+        },
+        "loc": {
+          "start": { "line": 25, "column": 7 },
+          "end": { "line": 31, "column": 1 }
+        },
+        "line": 25
+      }
+    },
+    "f": { "0": 2, "1": 2, "2": 1, "3": 2 }
+  },
+  "E:\\play-element\\packages\\utils\\index.ts": {
+    "path": "E:\\play-element\\packages\\utils\\index.ts",
+    "all": false,
+    "statementMap": {
+      "0": {
+        "start": { "line": 1, "column": 0 },
+        "end": { "line": 1, "column": 25 }
+      },
+      "1": {
+        "start": { "line": 2, "column": 0 },
+        "end": { "line": 2, "column": 38 }
+      },
+      "2": {
+        "start": { "line": 3, "column": 0 },
+        "end": { "line": 3, "column": 39 }
+      },
+      "3": {
+        "start": { "line": 4, "column": 0 },
+        "end": { "line": 4, "column": 0 }
+      },
+      "4": {
+        "start": { "line": 5, "column": 0 },
+        "end": { "line": 5, "column": 44 }
+      },
+      "5": {
+        "start": { "line": 6, "column": 0 },
+        "end": { "line": 6, "column": 10 }
+      },
+      "6": {
+        "start": { "line": 7, "column": 0 },
+        "end": { "line": 7, "column": 12 }
+      },
+      "7": {
+        "start": { "line": 8, "column": 0 },
+        "end": { "line": 8, "column": 39 }
+      },
+      "8": {
+        "start": { "line": 9, "column": 0 },
+        "end": { "line": 9, "column": 21 }
+      },
+      "9": {
+        "start": { "line": 10, "column": 0 },
+        "end": { "line": 10, "column": 6 }
+      },
+      "10": {
+        "start": { "line": 11, "column": 0 },
+        "end": { "line": 11, "column": 4 }
+      },
+      "11": {
+        "start": { "line": 12, "column": 0 },
+        "end": { "line": 12, "column": 16 }
+      },
+      "12": {
+        "start": { "line": 13, "column": 0 },
+        "end": { "line": 13, "column": 73 }
+      },
+      "13": {
+        "start": { "line": 14, "column": 0 },
+        "end": { "line": 14, "column": 4 }
+      },
+      "14": {
+        "start": { "line": 15, "column": 0 },
+        "end": { "line": 15, "column": 3 }
+      },
+      "15": {
+        "start": { "line": 16, "column": 0 },
+        "end": { "line": 16, "column": 0 }
+      },
+      "16": {
+        "start": { "line": 17, "column": 0 },
+        "end": { "line": 17, "column": 36 }
+      },
+      "17": {
+        "start": { "line": 18, "column": 0 },
+        "end": { "line": 18, "column": 26 }
+      },
+      "18": {
+        "start": { "line": 19, "column": 0 },
+        "end": { "line": 19, "column": 30 }
+      },
+      "19": {
+        "start": { "line": 20, "column": 0 },
+        "end": { "line": 20, "column": 36 }
+      },
+      "20": {
+        "start": { "line": 21, "column": 0 },
+        "end": { "line": 21, "column": 29 }
+      },
+      "21": {
+        "start": { "line": 22, "column": 0 },
+        "end": { "line": 22, "column": 28 }
+      },
+      "22": {
+        "start": { "line": 23, "column": 0 },
+        "end": { "line": 23, "column": 3 }
+      },
+      "23": {
+        "start": { "line": 24, "column": 0 },
+        "end": { "line": 24, "column": 0 }
+      },
+      "24": {
+        "start": { "line": 25, "column": 0 },
+        "end": { "line": 25, "column": 26 }
+      },
+      "25": {
+        "start": { "line": 26, "column": 0 },
+        "end": { "line": 26, "column": 24 }
+      },
+      "26": {
+        "start": { "line": 27, "column": 0 },
+        "end": { "line": 27, "column": 26 }
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 0,
+      "13": 0,
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1,
+      "19": 1,
+      "20": 1,
+      "21": 1,
+      "22": 1,
+      "23": 1,
+      "24": 1,
+      "25": 1,
+      "26": 1
+    },
+    "branchMap": {},
+    "b": {},
+    "fnMap": {
+      "0": {
+        "name": "setup",
+        "decl": {
+          "start": { "line": 12, "column": 2 },
+          "end": { "line": 14, "column": 4 }
+        },
+        "loc": {
+          "start": { "line": 12, "column": 2 },
+          "end": { "line": 14, "column": 4 }
+        },
+        "line": 12
+      }
+    },
+    "f": { "0": 0 }
+  },
+  "E:\\play-element\\packages\\utils\\install.ts": {
+    "path": "E:\\play-element\\packages\\utils\\install.ts",
+    "all": false,
+    "statementMap": {
+      "0": {
+        "start": { "line": 1, "column": 0 },
+        "end": { "line": 1, "column": 14 }
+      },
+      "1": {
+        "start": { "line": 2, "column": 0 },
+        "end": { "line": 2, "column": 35 }
+      },
+      "2": {
+        "start": { "line": 3, "column": 0 },
+        "end": { "line": 3, "column": 34 }
+      },
+      "3": {
+        "start": { "line": 4, "column": 0 },
+        "end": { "line": 4, "column": 0 }
+      },
+      "4": {
+        "start": { "line": 5, "column": 0 },
+        "end": { "line": 5, "column": 36 }
+      },
+      "5": {
+        "start": { "line": 6, "column": 0 },
+        "end": { "line": 6, "column": 0 }
+      },
+      "6": {
+        "start": { "line": 7, "column": 0 },
+        "end": { "line": 7, "column": 50 }
+      },
+      "7": {
+        "start": { "line": 8, "column": 0 },
+        "end": { "line": 8, "column": 78 }
+      },
+      "8": {
+        "start": { "line": 9, "column": 0 },
+        "end": { "line": 9, "column": 0 }
+      },
+      "9": {
+        "start": { "line": 10, "column": 0 },
+        "end": { "line": 10, "column": 31 }
+      },
+      "10": {
+        "start": { "line": 11, "column": 0 },
+        "end": { "line": 11, "column": 1 }
+      },
+      "11": {
+        "start": { "line": 12, "column": 0 },
+        "end": { "line": 12, "column": 48 }
+      },
+      "12": {
+        "start": { "line": 13, "column": 0 },
+        "end": { "line": 13, "column": 59 }
+      },
+      "13": {
+        "start": { "line": 14, "column": 0 },
+        "end": { "line": 14, "column": 45 }
+      },
+      "14": {
+        "start": { "line": 15, "column": 0 },
+        "end": { "line": 15, "column": 47 }
+      },
+      "15": {
+        "start": { "line": 16, "column": 0 },
+        "end": { "line": 16, "column": 6 }
+      },
+      "16": {
+        "start": { "line": 17, "column": 0 },
+        "end": { "line": 17, "column": 41 }
+      },
+      "17": {
+        "start": { "line": 18, "column": 0 },
+        "end": { "line": 18, "column": 1 }
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 2,
+      "13": 4,
+      "14": 4,
+      "15": 4,
+      "16": 2,
+      "17": 2
+    },
+    "branchMap": {
+      "0": {
+        "type": "branch",
+        "line": 7,
+        "loc": {
+          "start": { "line": 7, "column": 7 },
+          "end": { "line": 11, "column": 1 }
+        },
+        "locations": [
+          {
+            "start": { "line": 7, "column": 7 },
+            "end": { "line": 11, "column": 1 }
+          }
+        ]
+      },
+      "1": {
+        "type": "branch",
+        "line": 8,
+        "loc": {
+          "start": { "line": 8, "column": 22 },
+          "end": { "line": 8, "column": 78 }
+        },
+        "locations": [
+          {
+            "start": { "line": 8, "column": 22 },
+            "end": { "line": 8, "column": 78 }
+          }
+        ]
+      },
+      "2": {
+        "type": "branch",
+        "line": 8,
+        "loc": {
+          "start": { "line": 8, "column": 56 },
+          "end": { "line": 8, "column": 73 }
+        },
+        "locations": [
+          {
+            "start": { "line": 8, "column": 56 },
+            "end": { "line": 8, "column": 73 }
+          }
+        ]
+      },
+      "3": {
+        "type": "branch",
+        "line": 12,
+        "loc": {
+          "start": { "line": 12, "column": 27 },
+          "end": { "line": 18, "column": 1 }
+        },
+        "locations": [
+          {
+            "start": { "line": 12, "column": 27 },
+            "end": { "line": 18, "column": 1 }
+          }
+        ]
+      },
+      "4": {
+        "type": "branch",
+        "line": 13,
+        "loc": {
+          "start": { "line": 13, "column": 47 },
+          "end": { "line": 16, "column": 6 }
+        },
+        "locations": [
+          {
+            "start": { "line": 13, "column": 47 },
+            "end": { "line": 16, "column": 6 }
+          }
+        ]
+      }
+    },
+    "b": { "0": [1], "1": [1], "2": [2], "3": [2], "4": [4] },
+    "fnMap": {
+      "0": {
+        "name": "makeInstaller",
+        "decl": {
+          "start": { "line": 7, "column": 7 },
+          "end": { "line": 11, "column": 1 }
+        },
+        "loc": {
+          "start": { "line": 7, "column": 7 },
+          "end": { "line": 11, "column": 1 }
+        },
+        "line": 7
+      },
+      "1": {
+        "name": "installer",
+        "decl": {
+          "start": { "line": 8, "column": 22 },
+          "end": { "line": 8, "column": 78 }
+        },
+        "loc": {
+          "start": { "line": 8, "column": 22 },
+          "end": { "line": 8, "column": 78 }
+        },
+        "line": 8
+      },
+      "2": {
+        "name": "withInstall",
+        "decl": {
+          "start": { "line": 12, "column": 27 },
+          "end": { "line": 18, "column": 1 }
+        },
+        "loc": {
+          "start": { "line": 12, "column": 27 },
+          "end": { "line": 18, "column": 1 }
+        },
+        "line": 12
+      },
+      "3": {
+        "name": "component.install",
+        "decl": {
+          "start": { "line": 13, "column": 47 },
+          "end": { "line": 16, "column": 6 }
+        },
+        "loc": {
+          "start": { "line": 13, "column": 47 },
+          "end": { "line": 16, "column": 6 }
+        },
+        "line": 13
+      }
+    },
+    "f": { "0": 1, "1": 1, "2": 2, "3": 4 }
+  }
 }

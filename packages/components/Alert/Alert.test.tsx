@@ -4,7 +4,7 @@ import { mount } from "@vue/test-utils";
 import Alert from "./Alert.vue";
 import Icon from "../Icon/Icon.vue";
 import { ErAlert } from "./index";
-import { withInstall } from "@toy-element/utils";
+import { withInstall } from "@play-element/utils";
 
 describe("Alert.vue", () => {
   const title = "Test Alert" as const;

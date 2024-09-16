@@ -1,7 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/vue3";
-import { ErCollapse, ErCollapseItem } from "toy-element";
-
-
+import { ErCollapse, ErCollapseItem } from "play-element";
+import 'paly-element/dist/theme/Collapse.css'
 type Story = StoryObj<typeof ErCollapse>;
 
 const meta: Meta<typeof ErCollapse> = {
@@ -10,7 +9,6 @@ const meta: Meta<typeof ErCollapse> = {
   subcomponents: { ErCollapseItem },
   tags: ["autodocs"],
 };
-
 
 export const Default: Story = {
   render: (args) => ({

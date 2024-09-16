@@ -1,9 +1,11 @@
 import type { Meta, StoryObj, ArgTypes } from "@storybook/vue3";
 import { fn, within, userEvent, expect, clearAllMocks } from "@storybook/test";
-import {set} from 'lodash-es'
-import { ErButton,ErButtonGroup } from 'toy-element'
+import { set } from "lodash-es";
+import { ErButton, ErButtonGroup } from "@play-element/components";
+//import { ErButton, ErButtonGroup } from "play-element";
 import exp from "constants";
 import { faL } from "@fortawesome/free-solid-svg-icons";
+import 'paly-element/dist/theme/Button.css'
 
 type Story = StoryObj<typeof ErButton> & { argTypes?: ArgTypes };
 
@@ -78,87 +80,85 @@ export const Default: Story & { args: { content: string } } = {
       `<er-button v-bind="args">{{args.content}}</er-button>`
     ),
   }),
-  play:async ({canvasElement,args,step})=>{
-   /*  const canvas = within(canvasElement);
+  play: async ({ canvasElement, args, step }) => {
+    /*  const canvas = within(canvasElement);
       await step("click btn",async()=>{
         await userEvent.click(canvas.getByRole("button"))
       });
       expect(args.onClick).toHaveBeenCalled(); */
 
-      const canvas = within(canvasElement);
-      const btn = canvas.getByTestId("story-test-btn");
+    const canvas = within(canvasElement);
+    const btn = canvas.getByTestId("story-test-btn");
 
-      await step(
-        "when useThrottle is set to true, the onClick should be called once",
-        async()=>{
-          set(args, "useThrottle",true);
-          await userEvent.tripleClick(btn);
+    await step(
+      "when useThrottle is set to true, the onClick should be called once",
+      async () => {
+        set(args, "useThrottle", true);
+        await userEvent.tripleClick(btn);
 
-          expect(args.onClick).toHaveBeenCalledOnce();
-          clearAllMocks();
-        }
-      );
-      await step(
-        "when useThrottle is set to false, the onClick should be called three times",
-        async()=>{
-          set(args,"useThrottle",false);
-          await userEvent.tripleClick(btn);
-          
-          expect(args.onClick).toHaveBeenCalledTimes(3);
-          clearAllMocks();
-        }
-      );
-      await step(
-        "when disabled is set to true, the onClick should not be called",
-        async()=>{
-          set(args,"disabled",true);
-          await userEvent.click(btn);
+        expect(args.onClick).toHaveBeenCalledOnce();
+        clearAllMocks();
+      }
+    );
+    await step(
+      "when useThrottle is set to false, the onClick should be called three times",
+      async () => {
+        set(args, "useThrottle", false);
+        await userEvent.tripleClick(btn);
 
-          expect(args.onClick).toHaveBeenCalledTimes(0);
-          set(args,"disabled",false);
-          clearAllMocks();
-        }
-      );
+        expect(args.onClick).toHaveBeenCalledTimes(3);
+        clearAllMocks();
+      }
+    );
+    await step(
+      "when disabled is set to true, the onClick should not be called",
+      async () => {
+        set(args, "disabled", true);
+        await userEvent.click(btn);
 
-      await step(
-        "when loading is set to true, the onClick should not be called",
-        async()=>{
-          set(args,"loading",true);
-          await userEvent.click(btn);
+        expect(args.onClick).toHaveBeenCalledTimes(0);
+        set(args, "disabled", false);
+        clearAllMocks();
+      }
+    );
 
-          expect(args.onClick).toHaveBeenCalledTimes(0);
-          set(args,"loading",false);
-          clearAllMocks();
-        }
-      )
-      
-  }
- 
+    await step(
+      "when loading is set to true, the onClick should not be called",
+      async () => {
+        set(args, "loading", true);
+        await userEvent.click(btn);
+
+        expect(args.onClick).toHaveBeenCalledTimes(0);
+        set(args, "loading", false);
+        clearAllMocks();
+      }
+    );
+  },
 };
 
-export const Autofocus:Story & {args:{content:string}}={
-  argTypes:{
-    content:{
-      control:{ type:"text"},
-    }
-  },
-  args:{
-    content:"Button",
-    autofocus:true,
-  },
-  render:(args)=>({
-    components:{ErButton},
-    setup(){
-      return {args};
+export const Autofocus: Story & { args: { content: string } } = {
+  argTypes: {
+    content: {
+      control: { type: "text" },
     },
-    template:container(
+  },
+  args: {
+    content: "Button",
+    autofocus: true,
+  },
+  render: (args) => ({
+    components: { ErButton },
+    setup() {
+      return { args };
+    },
+    template: container(
       `
       <p>请点击浏览器的刷新页面来获取按钮聚焦</p>
       <er-button data-testid="story-test-btn" v-bind="args">{{args.content}}</er-button>
       `
-    )
+    ),
   }),
-  play:async({args})=>{
+  play: async ({ args }) => {
     await userEvent.keyboard("{enter}");
 
     expect(args.onClick).toHaveBeenCalledOnce();
@@ -190,7 +190,6 @@ export const Circle: Story = {
 };
 
 Circle.parameters = {};
-
 
 export const Group: Story & { args: { content1: string; content2: string } } = {
   argTypes: {

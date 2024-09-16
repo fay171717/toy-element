@@ -3,10 +3,9 @@ import type { TooltipProps, TooltipEmits, TooltipInstance } from "./types";
 import { createPopper, type Instance } from "@popperjs/core";
 import { bind, debounce, type DebouncedFunc } from "lodash-es";
 import { ref, watchEffect, watch, computed, onUnmounted, type Ref } from "vue";
-import { useClickOutside } from "@toy-element/hooks";
+import { useClickOutside } from "@play-element/hooks";
 
-
-import useEventsToTiggerNode from "./useEventsTotiggerNode";
+import useEventsToTiggerNode from "./useEventsToTiggerNode";
 
 interface _TooltipProps extends TooltipProps {
   virtualRef?: HTMLElement | void;
@@ -165,6 +164,7 @@ watch(
 );
 
 watchEffect(() => {
+  //初次假造的时候
   if (!props.manual) {
     attachEvents();
   }

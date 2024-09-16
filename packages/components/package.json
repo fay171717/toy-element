@@ -1,12 +1,12 @@
 {
-  "name": "@toy-element/components",
+  "name": "@play-element/components",
   "version": "1.0.0",
   "description": "",
-  "private":true,
+  "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "cross-env NODE_ENV=test pnpm --filter @toy-element/hooks build && vitest --run --coverage",
-    "test:watch":"cross-env NODE_ENV=test pnpm --filter @toy-element/hooks build && vitest --coverage"
+    "test": "cross-env NODE_ENV=test pnpm --filter @play-element/hooks build && vitest --run --coverage",
+    "test:watch": "cross-env NODE_ENV=test pnpm --filter @play-element/hooks build && vitest --coverage"
   },
   "keywords": [],
   "author": "",

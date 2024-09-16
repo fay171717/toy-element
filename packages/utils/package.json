@@ -1,11 +1,10 @@
 {
-  "name": "@toy-element/utils",
+  "name": "@play-element/utils",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "vitest --run --coverage"
-    
   },
   "keywords": [],
   "author": "",

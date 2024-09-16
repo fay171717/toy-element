@@ -1,5 +1,5 @@
 import { describe, test, it, expect, vi, beforeEach } from "vitest";
-import { withInstall } from "@toy-element/utils";
+import { withInstall } from "@play-element/utils";
 import { mount } from "@vue/test-utils";
 import { ErTooltip } from ".";
 

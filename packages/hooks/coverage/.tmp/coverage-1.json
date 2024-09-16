@@ -1,1 +1,117 @@
-{"result":[{"scriptId":"1072","url":"file:///E:/toy-element/vitest.setup.ts","functions":[{"functionName":"","ranges":[{"startOffset":0,"endOffset":1254,"count":1}],"isBlockCoverage":true},{"functionName":"","ranges":[{"startOffset":13,"endOffset":1254,"count":1}],"isBlockCoverage":true}]},{"scriptId":"1089","url":"file:///E:/toy-element/packages/hooks/__test__/useEventListener.test.tsx","functions":[{"functionName":"","ranges":[{"startOffset":0,"endOffset":7756,"count":1}],"isBlockCoverage":true},{"functionName":"","ranges":[{"startOffset":13,"endOffset":7756,"count":1}],"isBlockCoverage":true},{"functionName":"","ranges":[{"startOffset":1184,"endOffset":2834,"count":1}],"isBlockCoverage":true},{"functionName":"","ranges":[{"startOffset":1286,"endOffset":1975,"count":1}],"isBlockCoverage":true},{"functionName":"setup","ranges":[{"startOffset":1498,"endOffset":1690,"count":1}],"isBlockCoverage":true},{"functionName":"","ranges":[{"startOffset":1588,"endOffset":1681,"count":1}],"isBlockCoverage":true},{"functionName":"","ranges":[{"startOffset":2077,"endOffset":2830,"count":1},{"startOffset":2544,"endOffset":2551,"count":0},{"startOffset":2750,"endOffset":2757,"count":0}],"isBlockCoverage":true},{"functionName":"setup","ranges":[{"startOffset":2268,"endOffset":2488,"count":1}],"isBlockCoverage":true},{"functionName":"","ranges":[{"startOffset":2358,"endOffset":2479,"count":1}],"isBlockCoverage":true}]},{"scriptId":"1119","url":"file:///E:/toy-element/packages/hooks/useEventListener.ts","functions":[{"functionName":"","ranges":[{"startOffset":0,"endOffset":2681,"count":1}],"isBlockCoverage":true},{"functionName":"","ranges":[{"startOffset":13,"endOffset":2681,"count":1}],"isBlockCoverage":true},{"functionName":"useEventListener","ranges":[{"startOffset":415,"endOffset":897,"count":2},{"startOffset":510,"endOffset":774,"count":1}],"isBlockCoverage":true},{"functionName":"","ranges":[{"startOffset":552,"endOffset":672,"count":2},{"startOffset":583,"endOffset":604,"count":1}],"isBlockCoverage":true},{"functionName":"","ranges":[{"startOffset":722,"endOffset":768,"count":1}],"isBlockCoverage":true},{"functionName":"","ranges":[{"startOffset":815,"endOffset":893,"count":1}],"isBlockCoverage":true}]}]}
+{
+  "result": [
+    {
+      "scriptId": "1072",
+      "url": "file:///E:/play-element/vitest.setup.ts",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [{ "startOffset": 0, "endOffset": 1254, "count": 1 }],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [{ "startOffset": 13, "endOffset": 1254, "count": 1 }],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "1089",
+      "url": "file:///E:/play-element/packages/hooks/__test__/useEventListener.test.tsx",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [{ "startOffset": 0, "endOffset": 7756, "count": 1 }],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [{ "startOffset": 13, "endOffset": 7756, "count": 1 }],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [{ "startOffset": 1184, "endOffset": 2834, "count": 1 }],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [{ "startOffset": 1286, "endOffset": 1975, "count": 1 }],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "setup",
+          "ranges": [{ "startOffset": 1498, "endOffset": 1690, "count": 1 }],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [{ "startOffset": 1588, "endOffset": 1681, "count": 1 }],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            { "startOffset": 2077, "endOffset": 2830, "count": 1 },
+            { "startOffset": 2544, "endOffset": 2551, "count": 0 },
+            { "startOffset": 2750, "endOffset": 2757, "count": 0 }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "setup",
+          "ranges": [{ "startOffset": 2268, "endOffset": 2488, "count": 1 }],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [{ "startOffset": 2358, "endOffset": 2479, "count": 1 }],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "1119",
+      "url": "file:///E:/play-element/packages/hooks/useEventListener.ts",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [{ "startOffset": 0, "endOffset": 2681, "count": 1 }],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [{ "startOffset": 13, "endOffset": 2681, "count": 1 }],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "useEventListener",
+          "ranges": [
+            { "startOffset": 415, "endOffset": 897, "count": 2 },
+            { "startOffset": 510, "endOffset": 774, "count": 1 }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            { "startOffset": 552, "endOffset": 672, "count": 2 },
+            { "startOffset": 583, "endOffset": 604, "count": 1 }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [{ "startOffset": 722, "endOffset": 768, "count": 1 }],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [{ "startOffset": 815, "endOffset": 893, "count": 1 }],
+          "isBlockCoverage": true
+        }
+      ]
+    }
+  ]
+}

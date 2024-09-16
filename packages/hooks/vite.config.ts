@@ -2,7 +2,7 @@ import { resolve } from "path";
 import { defineConfig } from "vite";
 import { last, split, first, includes } from "lodash-es";
 
-//import { hooksPlugin as hooks } from "toy-element/vite-plugins";
+import { hooksPlugin as hooks } from "@play-element/vite-plugins";
 
 import dts from "vite-plugin-dts";
 
@@ -12,9 +12,9 @@ export default defineConfig({
       include: ["./**/*.ts"],
       exclude: ["./vite.config.ts"],
     }),
-  /*   hooks({
+      hooks({
       rmFiles: ["./dist"],
-    }), */
+    }),
   ],
   build: {
     minify: false,

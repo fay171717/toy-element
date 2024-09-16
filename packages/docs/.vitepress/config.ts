@@ -6,10 +6,10 @@ import {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "toy-element",
+  title: "play-element",
   description: "基于Vue3 高仿 element-ui 组件库",
   appearance: false, // 关闭 darkMode @todo 深色模式完成后打开
-  base: "/toy-element/",
+  base: "/play-element/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
