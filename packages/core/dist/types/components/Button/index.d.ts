@@ -16,27 +16,27 @@ export declare const ErButton: {
             type: import('vue').PropType<string | import('vue').Component>;
             default: string;
         };
+        nativeType: {
+            type: import('vue').PropType<import('./types').NativeType>;
+            default: string;
+        };
+        disabled: {
+            type: import('vue').PropType<boolean>;
+        };
+        loading: {
+            type: import('vue').PropType<boolean>;
+        };
         plain: {
             type: import('vue').PropType<boolean>;
         };
         round: {
             type: import('vue').PropType<boolean>;
         };
-        disabled: {
-            type: import('vue').PropType<boolean>;
+        loadingIcon: {
+            type: import('vue').PropType<string>;
         };
         autofocus: {
             type: import('vue').PropType<boolean>;
-        };
-        nativeType: {
-            type: import('vue').PropType<import('./types').NativeType>;
-            default: string;
-        };
-        loading: {
-            type: import('vue').PropType<boolean>;
-        };
-        loadingIcon: {
-            type: import('vue').PropType<string>;
         };
         useThrottle: {
             type: import('vue').PropType<boolean>;
@@ -72,27 +72,27 @@ export declare const ErButton: {
             type: import('vue').PropType<string | import('vue').Component>;
             default: string;
         };
+        nativeType: {
+            type: import('vue').PropType<import('./types').NativeType>;
+            default: string;
+        };
+        disabled: {
+            type: import('vue').PropType<boolean>;
+        };
+        loading: {
+            type: import('vue').PropType<boolean>;
+        };
         plain: {
             type: import('vue').PropType<boolean>;
         };
         round: {
             type: import('vue').PropType<boolean>;
         };
-        disabled: {
-            type: import('vue').PropType<boolean>;
+        loadingIcon: {
+            type: import('vue').PropType<string>;
         };
         autofocus: {
             type: import('vue').PropType<boolean>;
-        };
-        nativeType: {
-            type: import('vue').PropType<import('./types').NativeType>;
-            default: string;
-        };
-        loading: {
-            type: import('vue').PropType<boolean>;
-        };
-        loadingIcon: {
-            type: import('vue').PropType<string>;
         };
         useThrottle: {
             type: import('vue').PropType<boolean>;
@@ -133,27 +133,27 @@ export declare const ErButton: {
             type: import('vue').PropType<string | import('vue').Component>;
             default: string;
         };
+        nativeType: {
+            type: import('vue').PropType<import('./types').NativeType>;
+            default: string;
+        };
+        disabled: {
+            type: import('vue').PropType<boolean>;
+        };
+        loading: {
+            type: import('vue').PropType<boolean>;
+        };
         plain: {
             type: import('vue').PropType<boolean>;
         };
         round: {
             type: import('vue').PropType<boolean>;
         };
-        disabled: {
-            type: import('vue').PropType<boolean>;
+        loadingIcon: {
+            type: import('vue').PropType<string>;
         };
         autofocus: {
             type: import('vue').PropType<boolean>;
-        };
-        nativeType: {
-            type: import('vue').PropType<import('./types').NativeType>;
-            default: string;
-        };
-        loading: {
-            type: import('vue').PropType<boolean>;
-        };
-        loadingIcon: {
-            type: import('vue').PropType<string>;
         };
         useThrottle: {
             type: import('vue').PropType<boolean>;
@@ -196,27 +196,27 @@ export declare const ErButton: {
         type: import('vue').PropType<string | import('vue').Component>;
         default: string;
     };
+    nativeType: {
+        type: import('vue').PropType<import('./types').NativeType>;
+        default: string;
+    };
+    disabled: {
+        type: import('vue').PropType<boolean>;
+    };
+    loading: {
+        type: import('vue').PropType<boolean>;
+    };
     plain: {
         type: import('vue').PropType<boolean>;
     };
     round: {
         type: import('vue').PropType<boolean>;
     };
-    disabled: {
-        type: import('vue').PropType<boolean>;
+    loadingIcon: {
+        type: import('vue').PropType<string>;
     };
     autofocus: {
         type: import('vue').PropType<boolean>;
-    };
-    nativeType: {
-        type: import('vue').PropType<import('./types').NativeType>;
-        default: string;
-    };
-    loading: {
-        type: import('vue').PropType<boolean>;
-    };
-    loadingIcon: {
-        type: import('vue').PropType<string>;
     };
     useThrottle: {
         type: import('vue').PropType<boolean>;

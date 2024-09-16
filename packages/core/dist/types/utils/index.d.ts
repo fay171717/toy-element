@@ -13,3 +13,4 @@ export declare const RenderVnode: import('vue').DefineComponent<import('vue').Ex
 export declare const typeIconMap: Map<string, string>;
 export * from './install';
 export * from './error';
+export * from './style';

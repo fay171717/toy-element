@@ -6,6 +6,7 @@ import {
   ErCollapseItem,
   ErAlert,
   ErTooltip,
+  ErPopconfirm
 } from "@play-element/components";
 import type { Plugin } from "vue";
 
@@ -17,4 +18,5 @@ export default [
   ErCollapse,
   ErAlert,
   ErTooltip,
+  ErPopconfirm
 ] as Plugin[];
