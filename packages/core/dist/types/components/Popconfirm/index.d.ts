@@ -16,11 +16,11 @@ export declare const ErPopconfirm: {
             type: import('vue').PropType<string>;
         };
         confirmButtonType: {
-            type: import('vue').PropType<any>;
+            type: import('vue').PropType<import('../Button/types').ButtonType>;
             default: string;
         };
         cancelButtonType: {
-            type: import('vue').PropType<any>;
+            type: import('vue').PropType<import('../Button/types').ButtonType>;
         };
         iconColor: {
             type: import('vue').PropType<string>;
@@ -60,11 +60,11 @@ export declare const ErPopconfirm: {
             type: import('vue').PropType<string>;
         };
         confirmButtonType: {
-            type: import('vue').PropType<any>;
+            type: import('vue').PropType<import('../Button/types').ButtonType>;
             default: string;
         };
         cancelButtonType: {
-            type: import('vue').PropType<any>;
+            type: import('vue').PropType<import('../Button/types').ButtonType>;
         };
         iconColor: {
             type: import('vue').PropType<string>;
@@ -87,7 +87,7 @@ export declare const ErPopconfirm: {
     }>, {
         icon: string;
         title: string;
-        confirmButtonType: any;
+        confirmButtonType: import('../Button/types').ButtonType;
         iconColor: string;
         hideAfter: number;
         width: number | string;
@@ -115,11 +115,11 @@ export declare const ErPopconfirm: {
             type: import('vue').PropType<string>;
         };
         confirmButtonType: {
-            type: import('vue').PropType<any>;
+            type: import('vue').PropType<import('../Button/types').ButtonType>;
             default: string;
         };
         cancelButtonType: {
-            type: import('vue').PropType<any>;
+            type: import('vue').PropType<import('../Button/types').ButtonType>;
         };
         iconColor: {
             type: import('vue').PropType<string>;
@@ -142,7 +142,7 @@ export declare const ErPopconfirm: {
     }>, {}, {}, {}, {}, {
         icon: string;
         title: string;
-        confirmButtonType: any;
+        confirmButtonType: import('../Button/types').ButtonType;
         iconColor: string;
         hideAfter: number;
         width: number | string;
@@ -167,11 +167,11 @@ export declare const ErPopconfirm: {
         type: import('vue').PropType<string>;
     };
     confirmButtonType: {
-        type: import('vue').PropType<any>;
+        type: import('vue').PropType<import('../Button/types').ButtonType>;
         default: string;
     };
     cancelButtonType: {
-        type: import('vue').PropType<any>;
+        type: import('vue').PropType<import('../Button/types').ButtonType>;
     };
     iconColor: {
         type: import('vue').PropType<string>;
@@ -197,7 +197,7 @@ export declare const ErPopconfirm: {
 }, string, {
     icon: string;
     title: string;
-    confirmButtonType: any;
+    confirmButtonType: import('../Button/types').ButtonType;
     iconColor: string;
     hideAfter: number;
     width: number | string;

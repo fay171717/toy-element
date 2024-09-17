@@ -1,7 +1,7 @@
 import type { StoryObj, Meta, ArgTypes } from "@storybook/vue3";
 import { ref, watch } from "vue";
 import { fn } from "@storybook/test";
-import { ErAlert, type AlertInstance} from "@play-element/components";
+import { ErAlert, type AlertInstance } from "@play-element/components";
 //import { ErAlert, type AlertInstance } from "play-element";
 import "play-element/dist/theme/Alert.css";
 
@@ -23,7 +23,7 @@ const meta: Meta<typeof ErAlert> = {
     center: {
       control: "boolean",
     },
- },
+  },
   args: {
     onClose: fn(),
   },

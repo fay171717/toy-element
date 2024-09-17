@@ -1,20 +1,19 @@
 {
-    "name": "@play-element/vite-plugins",
-    "version": "1.0.0",
-    "private": true,
-    "type": "module",
-    "main": "./.dist/index.cjs",
-    "module": "./.dist/index.mjs",
-    "types": "./.dist/index.d.ts",
-    "exports": {
-      ".": {
-        "import": "./.dist/index.mjs",
-        "require": "./.dist/index.cjs",
-        "types": "./.dist/index.d.ts"
-      }
-    },
-    "scripts": {
-      "build": "vite build"
+  "name": "@play-element/vite-plugins",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./.dist/index.cjs",
+  "module": "./.dist/index.mjs",
+  "types": "./.dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./.dist/index.mjs",
+      "require": "./.dist/index.cjs",
+      "types": "./.dist/index.d.ts"
     }
+  },
+  "scripts": {
+    "build": "vite build"
   }
-  
+}

@@ -1,4 +1,4 @@
-import type { ButtonType } from "../Button";
+import type { ButtonType } from "../Button/types";
 
 export interface PopconfirmProps {
   title: string;

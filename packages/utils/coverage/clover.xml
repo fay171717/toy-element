@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1726280512973" clover="3.2.0">
-  <project timestamp="1726280512973" name="All files">
-    <metrics statements="76" coveredstatements="74" conditionals="11" coveredconditionals="11" methods="9" coveredmethods="8" elements="96" coveredelements="93" complexity="0" loc="76" ncloc="76" packages="1" files="3" classes="3"/>
+<coverage generated="1726556853318" clover="3.2.0">
+  <project timestamp="1726556853318" name="All files">
+    <metrics statements="99" coveredstatements="82" conditionals="11" coveredconditionals="11" methods="11" coveredmethods="8" elements="121" coveredelements="101" complexity="0" loc="99" ncloc="99" packages="1" files="4" classes="4"/>
     <file name="error.ts" path="E:\play-element\packages\utils\error.ts">
       <metrics statements="31" coveredstatements="31" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
       <line num="1" count="1" type="stmt"/>
@@ -86,6 +86,32 @@
       <line num="16" count="4" type="stmt"/>
       <line num="17" count="2" type="stmt"/>
       <line num="18" count="2" type="stmt"/>
+    </file>
+    <file name="style.ts" path="E:\play-element\packages\utils\style.ts">
+      <metrics statements="23" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="12" count="0" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="15" count="0" type="stmt"/>
+      <line num="16" count="0" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="18" count="0" type="stmt"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="21" count="0" type="stmt"/>
+      <line num="22" count="0" type="stmt"/>
+      <line num="23" count="0" type="stmt"/>
     </file>
   </project>
 </coverage>

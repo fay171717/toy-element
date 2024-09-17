@@ -30,7 +30,6 @@
     "build-es": "vite build --config build/vite.es.config.ts",
     "build-umd:watch": "vite build --watch --config build/vite.umd.config.ts",
     "build-es:watch": "vite build --watch --config build/vite.es.config.ts",
-   
     "release": "release-it"
   },
   "keywords": [],
@@ -45,7 +44,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-terser": "^0.4.4",
-    "@toy-element/components": "workspace:*",
+    "@play-element/components": "workspace:*",
     "rollup-plugin-visualizer": "^5.12.0",
     "terser": "^5.31.1",
     "vite-plugin-compression2": "^1.1.1"

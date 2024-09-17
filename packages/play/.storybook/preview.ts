@@ -1,4 +1,4 @@
-import "toy-element/dist/theme/index.css";
+import "play-element/dist/theme/index.css";
 
 /** @type { import('@storybook/vue3').Preview } */
 const preview = {

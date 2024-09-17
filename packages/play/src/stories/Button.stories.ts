@@ -5,7 +5,7 @@ import { ErButton, ErButtonGroup } from "@play-element/components";
 //import { ErButton, ErButtonGroup } from "play-element";
 import exp from "constants";
 import { faL } from "@fortawesome/free-solid-svg-icons";
-import 'paly-element/dist/theme/Button.css'
+import "paly-element/dist/theme/Button.css";
 
 type Story = StoryObj<typeof ErButton> & { argTypes?: ArgTypes };
 

@@ -1,7 +1,7 @@
 import type { App } from "vue";
-import { ElementPlusContainer } from "../../../../libs/vitepress-preview-component"
+import { ElementPlusContainer } from "../../../../libs/vitepress-preview-component";
 import DefaultTheme from "vitepress";
-import ToyElement from "play-element";
+import PlayElement from "../../../core";
 
 import "vitepress-preivew-component/style.css";
 import "play-element/dist/index.css";
@@ -10,6 +10,6 @@ export default {
 
   enhanceApp({ app }: { app: App }) {
     app.component("demo-preview", ElementPlusContainer);
-    app.use(ToyElement);
+    app.use(PlayElement);
   },
 };

@@ -1,20 +1,15 @@
 <script setup lang="ts">
-import {ref,computed} from 'vue'
-import { ErTooltip } from '../Tooltip';
-import type { TooltipInstance } from '../Tooltip/types';
-import type { PopconfirmEmits,PopconfirmProps } from './types';
-import { ErButton } from '../Button';
-import { ErIcon } from '../Icon';
-import { addUnit } from '@play-element/utils';
-
-
-
-
+import { ref, computed } from "vue";
+import { ErTooltip } from "../Tooltip";
+import type { TooltipInstance } from "../Tooltip/types";
+import type { PopconfirmEmits, PopconfirmProps } from "./types";
+import { ErButton } from "../Button";
+import { ErIcon } from "../Icon";
+import { addUnit } from "@play-element/utils";
 
 defineOptions({
-    name:"ErPopconfirm",
-})
-
+  name: "ErPopconfirm",
+});
 
 const props = withDefaults(defineProps<PopconfirmProps>(), {
   title: "",
@@ -25,9 +20,8 @@ const props = withDefaults(defineProps<PopconfirmProps>(), {
   width: 150,
 });
 const emits = defineEmits<PopconfirmEmits>();
-const tooltipRef = ref<TooltipInstance>()
-const style = computed(()=>({width:addUnit(props.width)}))
-
+const tooltipRef = ref<TooltipInstance>();
+const style = computed(() => ({ width: addUnit(props.width) }));
 
 function hidePopper() {
   tooltipRef.value?.hide();
@@ -42,11 +36,10 @@ function cancel(e: MouseEvent) {
   emits("cancel", e);
   hidePopper();
 }
-
 </script>
 
 <template>
-     <er-tooltip ref="tooltipRef" trigger="click" :hide-timeout="hideAfter">
+  <er-tooltip ref="tooltipRef" trigger="click" :hide-timeout="hideAfter">
     <template #content>
       <div class="er-popconfirm" :style="style">
         <div class="er-popconfirm__main">
@@ -60,7 +53,7 @@ function cancel(e: MouseEvent) {
             :type="cancelButtonType"
             @click="cancel"
           >
-            {{ cancelButtonText || locale.t("popconfirm.cancelButtonText") }}
+            {{ cancelButtonText  }}
           </er-button>
           <er-button
             class="er-popconfirm__confirm"
@@ -68,7 +61,7 @@ function cancel(e: MouseEvent) {
             :type="confirmButtonType"
             @click="confrim"
           >
-            {{ confirmButtonText || locale.t("popconfirm.confirmButtonText") }}
+            {{ confirmButtonText }}
           </er-button>
         </div>
       </div>
@@ -85,5 +78,5 @@ function cancel(e: MouseEvent) {
 </template>
 
 <style>
-@import './style.css'
+@import "./style.css";
 </style>

@@ -1,25 +1,25 @@
-.er-icon[data-v-1ef3a962] {
-    --er-icon-color: inherit;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    fill: currentColor;
-    color: var(--er-icon-color);
-    font-size: inherit;
+.er-icon[data-v-ac6f8c02] {
+  --er-icon-color: inherit;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  fill: currentColor;
+  color: var(--er-icon-color);
+  font-size: inherit;
 }
-.er-icon--primary[data-v-1ef3a962] {
-      --er-icon-color: var(--er-color-primary);
+.er-icon--primary[data-v-ac6f8c02] {
+    --er-icon-color: var(--er-color-primary);
 }
-.er-icon--info[data-v-1ef3a962] {
-      --er-icon-color: var(--er-color-info);
+.er-icon--info[data-v-ac6f8c02] {
+    --er-icon-color: var(--er-color-info);
 }
-.er-icon--success[data-v-1ef3a962] {
-      --er-icon-color: var(--er-color-success);
+.er-icon--success[data-v-ac6f8c02] {
+    --er-icon-color: var(--er-color-success);
 }
-.er-icon--warning[data-v-1ef3a962] {
-      --er-icon-color: var(--er-color-warning);
+.er-icon--warning[data-v-ac6f8c02] {
+    --er-icon-color: var(--er-color-warning);
 }
-.er-icon--danger[data-v-1ef3a962] {
-      --er-icon-color: var(--er-color-danger);
+.er-icon--danger[data-v-ac6f8c02] {
+    --er-icon-color: var(--er-color-danger);
 }

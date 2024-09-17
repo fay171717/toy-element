@@ -217,3 +217,4 @@ export declare const ErTooltip: {
         content?(_: {}): any;
     };
 }) & import('vue').Plugin;
+export * from './types';

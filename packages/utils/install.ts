@@ -1,6 +1,6 @@
 //负责所有vue插件的安装
 import type {App,Plugin} from 'vue'
-//import { each } from "lodash-es"
+import { each } from "lodash-es"
 
 type SFCWithInstall<T> = T & Plugin;
 

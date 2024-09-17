@@ -19,6 +19,7 @@ export default defineConfig({
     ],
     setupFiles :[resolve(__dirname,"./vitest.setup.ts")]
   },
+  
 });
 
 // "test": "vitest --coverage"

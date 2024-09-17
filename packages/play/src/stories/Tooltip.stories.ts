@@ -3,7 +3,7 @@ import type { StoryObj, Meta } from "@storybook/vue3";
 import { fn } from "@storybook/test";
 import { ErTooltip } from "@play-element/components";
 //import { ErTooltip } from "play-element";
-import 'play-element/dist/theme/Tooltip.css'
+import "play-element/dist/theme/Tooltip.css";
 
 type Story = StoryObj<typeof ErTooltip>;
 

@@ -12,7 +12,7 @@ export default defineConfig({
       include: ["./**/*.ts"],
       exclude: ["./vite.config.ts"],
     }),
-      hooks({
+    hooks({
       rmFiles: ["./dist"],
     }),
   ],

@@ -2,13 +2,14 @@ import { defineConfig } from "vite";
 import { resolve } from "path";
 import { readdirSync, readdir } from "fs";
 import { delay, defer, filter, map } from "lodash-es";
+import { visualizer } from "rollup-plugin-visualizer";
 
-
-import terser from "@rollup/plugin-terser";
-import dts from "vite-plugin-dts";
-import { hooksPlugin as hooks } from "@play-element/vite-plugins";
-import shell from "shelljs";
 import vue from "@vitejs/plugin-vue";
+import dts from "vite-plugin-dts";
+import shell from "shelljs";
+import { hooksPlugin as hooks } from "@play-element/vite-plugins";
+import terser from "@rollup/plugin-terser";
+
 const TRY_MOVE_STYLES_DELAY = 800 as const;
 
 const isProd = process.env.NODE_ENV === "production";
@@ -34,8 +35,10 @@ function moveStyles() {
 export default defineConfig({
   plugins: [
     vue(),
+    visualizer({
+      filename: "dist/stats.es.html",
+    }),
     dts({
-      //限制路径
       tsconfigPath: "../../tsconfig.build.json",
       outDir: "dist/types",
     }),
@@ -75,10 +78,9 @@ export default defineConfig({
     outDir: "dist/es",
     minify: false,
     cssCodeSplit: true,
-
     lib: {
-      entry: resolve(__dirname, "./index.ts"),
-      name: "toyElement",
+      entry: resolve(__dirname, "../index.ts"),
+      name: "ToyElement",
       fileName: "index",
       formats: ["es"],
     },

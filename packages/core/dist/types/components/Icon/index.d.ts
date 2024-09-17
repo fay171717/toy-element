@@ -1,115 +1,159 @@
 export declare const ErIcon: {
     new (...args: any[]): import('vue').CreateComponentPublicInstanceWithMixins<Readonly<import('vue').ExtractPropTypes<{
-        size: {
-            type: import('vue').PropType<import('../Button/types').ButtonSize>;
+        border: {
+            type: import('vue').PropType<boolean>;
         };
-        type: {
-            type: import('vue').PropType<import('../Button/types').ButtonType>;
+        fixedWidth: {
+            type: import('vue').PropType<boolean>;
+        };
+        flip: {
+            type: import('vue').PropType<"horizontal" | "vertical" | "both">;
         };
         icon: {
-            type: import('vue').PropType<string>;
+            type: import('vue').PropType<string | object | string[] | import('@fortawesome/fontawesome-svg-core').IconDefinition>;
+            required: true;
         };
-        circle: {
+        mask: {
+            type: import('vue').PropType<string | object | string[]>;
+        };
+        listItem: {
             type: import('vue').PropType<boolean>;
         };
-        tag: {
-            type: import('vue').PropType<string | import('vue').Component>;
-            default: string;
+        pull: {
+            type: import('vue').PropType<"right" | "left">;
         };
-        nativeType: {
-            type: import('vue').PropType<import('../Button/types').NativeType>;
-            default: string;
-        };
-        disabled: {
+        pulse: {
             type: import('vue').PropType<boolean>;
         };
-        loading: {
+        rotation: {
+            type: import('vue').PropType<90 | 180 | 270 | "90" | "180" | "270">;
+        };
+        swapOpacity: {
             type: import('vue').PropType<boolean>;
         };
-        plain: {
-            type: import('vue').PropType<boolean>;
-        };
-        round: {
-            type: import('vue').PropType<boolean>;
-        };
-        loadingIcon: {
-            type: import('vue').PropType<string>;
-        };
-        autofocus: {
-            type: import('vue').PropType<boolean>;
-        };
-        useThrottle: {
-            type: import('vue').PropType<boolean>;
-            default: boolean;
-        };
-        throttleDuration: {
-            type: import('vue').PropType<number>;
-            default: number;
-        };
-    }>> & Readonly<{
-        onClick?: ((val: MouseEvent) => any) | undefined;
-    }>, {
-        ref: import('vue').Ref<HTMLButtonElement | void>;
-        disabled: import('vue').ComputedRef<boolean>;
-        size: import('vue').ComputedRef<import('../Button/types').ButtonSize | "">;
-        type: import('vue').ComputedRef<import('../Button/types').ButtonType | "">;
-    }, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {
-        click: (val: MouseEvent) => void;
-    }, import('vue').VNodeProps & import('vue').AllowedComponentProps & import('vue').ComponentCustomProps & Readonly<import('vue').ExtractPropTypes<{
         size: {
-            type: import('vue').PropType<import('../Button/types').ButtonSize>;
+            type: import('vue').PropType<"2xs" | "xs" | "sm" | "lg" | "xl" | "2xl" | "1x" | "2x" | "3x" | "4x" | "5x" | "6x" | "7x" | "8x" | "9x" | "10x">;
+        };
+        spin: {
+            type: import('vue').PropType<boolean>;
+        };
+        transform: {
+            type: import('vue').PropType<string | object>;
+        };
+        symbol: {
+            type: import('vue').PropType<string | boolean>;
+        };
+        title: {
+            type: import('vue').PropType<string>;
+        };
+        inverse: {
+            type: import('vue').PropType<boolean>;
+        };
+        bounce: {
+            type: import('vue').PropType<boolean>;
+        };
+        shake: {
+            type: import('vue').PropType<boolean>;
+        };
+        beat: {
+            type: import('vue').PropType<boolean>;
+        };
+        fade: {
+            type: import('vue').PropType<boolean>;
+        };
+        beatFade: {
+            type: import('vue').PropType<boolean>;
+        };
+        spinPulse: {
+            type: import('vue').PropType<boolean>;
+        };
+        spinReverse: {
+            type: import('vue').PropType<boolean>;
         };
         type: {
-            type: import('vue').PropType<import('../Button/types').ButtonType>;
+            type: import('vue').PropType<"info" | "success" | "warning" | "danger" | "primary">;
+        };
+        color: {
+            type: import('vue').PropType<string>;
+        };
+    }>> & Readonly<{}>, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {}, import('vue').VNodeProps & import('vue').AllowedComponentProps & import('vue').ComponentCustomProps & Readonly<import('vue').ExtractPropTypes<{
+        border: {
+            type: import('vue').PropType<boolean>;
+        };
+        fixedWidth: {
+            type: import('vue').PropType<boolean>;
+        };
+        flip: {
+            type: import('vue').PropType<"horizontal" | "vertical" | "both">;
         };
         icon: {
+            type: import('vue').PropType<string | object | string[] | import('@fortawesome/fontawesome-svg-core').IconDefinition>;
+            required: true;
+        };
+        mask: {
+            type: import('vue').PropType<string | object | string[]>;
+        };
+        listItem: {
+            type: import('vue').PropType<boolean>;
+        };
+        pull: {
+            type: import('vue').PropType<"right" | "left">;
+        };
+        pulse: {
+            type: import('vue').PropType<boolean>;
+        };
+        rotation: {
+            type: import('vue').PropType<90 | 180 | 270 | "90" | "180" | "270">;
+        };
+        swapOpacity: {
+            type: import('vue').PropType<boolean>;
+        };
+        size: {
+            type: import('vue').PropType<"2xs" | "xs" | "sm" | "lg" | "xl" | "2xl" | "1x" | "2x" | "3x" | "4x" | "5x" | "6x" | "7x" | "8x" | "9x" | "10x">;
+        };
+        spin: {
+            type: import('vue').PropType<boolean>;
+        };
+        transform: {
+            type: import('vue').PropType<string | object>;
+        };
+        symbol: {
+            type: import('vue').PropType<string | boolean>;
+        };
+        title: {
             type: import('vue').PropType<string>;
         };
-        circle: {
+        inverse: {
             type: import('vue').PropType<boolean>;
         };
-        tag: {
-            type: import('vue').PropType<string | import('vue').Component>;
-            default: string;
-        };
-        nativeType: {
-            type: import('vue').PropType<import('../Button/types').NativeType>;
-            default: string;
-        };
-        disabled: {
+        bounce: {
             type: import('vue').PropType<boolean>;
         };
-        loading: {
+        shake: {
             type: import('vue').PropType<boolean>;
         };
-        plain: {
+        beat: {
             type: import('vue').PropType<boolean>;
         };
-        round: {
+        fade: {
             type: import('vue').PropType<boolean>;
         };
-        loadingIcon: {
+        beatFade: {
+            type: import('vue').PropType<boolean>;
+        };
+        spinPulse: {
+            type: import('vue').PropType<boolean>;
+        };
+        spinReverse: {
+            type: import('vue').PropType<boolean>;
+        };
+        type: {
+            type: import('vue').PropType<"info" | "success" | "warning" | "danger" | "primary">;
+        };
+        color: {
             type: import('vue').PropType<string>;
         };
-        autofocus: {
-            type: import('vue').PropType<boolean>;
-        };
-        useThrottle: {
-            type: import('vue').PropType<boolean>;
-            default: boolean;
-        };
-        throttleDuration: {
-            type: import('vue').PropType<number>;
-            default: number;
-        };
-    }>> & Readonly<{
-        onClick?: ((val: MouseEvent) => any) | undefined;
-    }>, {
-        tag: string | import('vue').Component;
-        nativeType: import('../Button/types').NativeType;
-        useThrottle: boolean;
-        throttleDuration: number;
-    }, true, {}, {}, import('vue').GlobalComponents, import('vue').GlobalDirectives, string, {}, any, import('vue').ComponentProvideOptions, {
+    }>> & Readonly<{}>, {}, true, {}, {}, import('vue').GlobalComponents, import('vue').GlobalDirectives, string, {}, any, import('vue').ComponentProvideOptions, {
         P: {};
         B: {};
         D: {};
@@ -117,130 +161,162 @@ export declare const ErIcon: {
         M: {};
         Defaults: {};
     }, Readonly<import('vue').ExtractPropTypes<{
-        size: {
-            type: import('vue').PropType<import('../Button/types').ButtonSize>;
+        border: {
+            type: import('vue').PropType<boolean>;
         };
-        type: {
-            type: import('vue').PropType<import('../Button/types').ButtonType>;
+        fixedWidth: {
+            type: import('vue').PropType<boolean>;
+        };
+        flip: {
+            type: import('vue').PropType<"horizontal" | "vertical" | "both">;
         };
         icon: {
+            type: import('vue').PropType<string | object | string[] | import('@fortawesome/fontawesome-svg-core').IconDefinition>;
+            required: true;
+        };
+        mask: {
+            type: import('vue').PropType<string | object | string[]>;
+        };
+        listItem: {
+            type: import('vue').PropType<boolean>;
+        };
+        pull: {
+            type: import('vue').PropType<"right" | "left">;
+        };
+        pulse: {
+            type: import('vue').PropType<boolean>;
+        };
+        rotation: {
+            type: import('vue').PropType<90 | 180 | 270 | "90" | "180" | "270">;
+        };
+        swapOpacity: {
+            type: import('vue').PropType<boolean>;
+        };
+        size: {
+            type: import('vue').PropType<"2xs" | "xs" | "sm" | "lg" | "xl" | "2xl" | "1x" | "2x" | "3x" | "4x" | "5x" | "6x" | "7x" | "8x" | "9x" | "10x">;
+        };
+        spin: {
+            type: import('vue').PropType<boolean>;
+        };
+        transform: {
+            type: import('vue').PropType<string | object>;
+        };
+        symbol: {
+            type: import('vue').PropType<string | boolean>;
+        };
+        title: {
             type: import('vue').PropType<string>;
         };
-        circle: {
+        inverse: {
             type: import('vue').PropType<boolean>;
         };
-        tag: {
-            type: import('vue').PropType<string | import('vue').Component>;
-            default: string;
-        };
-        nativeType: {
-            type: import('vue').PropType<import('../Button/types').NativeType>;
-            default: string;
-        };
-        disabled: {
+        bounce: {
             type: import('vue').PropType<boolean>;
         };
-        loading: {
+        shake: {
             type: import('vue').PropType<boolean>;
         };
-        plain: {
+        beat: {
             type: import('vue').PropType<boolean>;
         };
-        round: {
+        fade: {
             type: import('vue').PropType<boolean>;
         };
-        loadingIcon: {
+        beatFade: {
+            type: import('vue').PropType<boolean>;
+        };
+        spinPulse: {
+            type: import('vue').PropType<boolean>;
+        };
+        spinReverse: {
+            type: import('vue').PropType<boolean>;
+        };
+        type: {
+            type: import('vue').PropType<"info" | "success" | "warning" | "danger" | "primary">;
+        };
+        color: {
             type: import('vue').PropType<string>;
         };
-        autofocus: {
-            type: import('vue').PropType<boolean>;
-        };
-        useThrottle: {
-            type: import('vue').PropType<boolean>;
-            default: boolean;
-        };
-        throttleDuration: {
-            type: import('vue').PropType<number>;
-            default: number;
-        };
-    }>> & Readonly<{
-        onClick?: ((val: MouseEvent) => any) | undefined;
-    }>, {
-        ref: import('vue').Ref<HTMLButtonElement | void>;
-        disabled: import('vue').ComputedRef<boolean>;
-        size: import('vue').ComputedRef<import('../Button/types').ButtonSize | "">;
-        type: import('vue').ComputedRef<import('../Button/types').ButtonType | "">;
-    }, {}, {}, {}, {
-        tag: string | import('vue').Component;
-        nativeType: import('../Button/types').NativeType;
-        useThrottle: boolean;
-        throttleDuration: number;
-    }>;
+    }>> & Readonly<{}>, {}, {}, {}, {}, {}>;
     __isFragment?: never;
     __isTeleport?: never;
     __isSuspense?: never;
 } & import('vue').ComponentOptionsBase<Readonly<import('vue').ExtractPropTypes<{
-    size: {
-        type: import('vue').PropType<import('../Button/types').ButtonSize>;
+    border: {
+        type: import('vue').PropType<boolean>;
     };
-    type: {
-        type: import('vue').PropType<import('../Button/types').ButtonType>;
+    fixedWidth: {
+        type: import('vue').PropType<boolean>;
+    };
+    flip: {
+        type: import('vue').PropType<"horizontal" | "vertical" | "both">;
     };
     icon: {
+        type: import('vue').PropType<string | object | string[] | import('@fortawesome/fontawesome-svg-core').IconDefinition>;
+        required: true;
+    };
+    mask: {
+        type: import('vue').PropType<string | object | string[]>;
+    };
+    listItem: {
+        type: import('vue').PropType<boolean>;
+    };
+    pull: {
+        type: import('vue').PropType<"right" | "left">;
+    };
+    pulse: {
+        type: import('vue').PropType<boolean>;
+    };
+    rotation: {
+        type: import('vue').PropType<90 | 180 | 270 | "90" | "180" | "270">;
+    };
+    swapOpacity: {
+        type: import('vue').PropType<boolean>;
+    };
+    size: {
+        type: import('vue').PropType<"2xs" | "xs" | "sm" | "lg" | "xl" | "2xl" | "1x" | "2x" | "3x" | "4x" | "5x" | "6x" | "7x" | "8x" | "9x" | "10x">;
+    };
+    spin: {
+        type: import('vue').PropType<boolean>;
+    };
+    transform: {
+        type: import('vue').PropType<string | object>;
+    };
+    symbol: {
+        type: import('vue').PropType<string | boolean>;
+    };
+    title: {
         type: import('vue').PropType<string>;
     };
-    circle: {
+    inverse: {
         type: import('vue').PropType<boolean>;
     };
-    tag: {
-        type: import('vue').PropType<string | import('vue').Component>;
-        default: string;
-    };
-    nativeType: {
-        type: import('vue').PropType<import('../Button/types').NativeType>;
-        default: string;
-    };
-    disabled: {
+    bounce: {
         type: import('vue').PropType<boolean>;
     };
-    loading: {
+    shake: {
         type: import('vue').PropType<boolean>;
     };
-    plain: {
+    beat: {
         type: import('vue').PropType<boolean>;
     };
-    round: {
+    fade: {
         type: import('vue').PropType<boolean>;
     };
-    loadingIcon: {
+    beatFade: {
+        type: import('vue').PropType<boolean>;
+    };
+    spinPulse: {
+        type: import('vue').PropType<boolean>;
+    };
+    spinReverse: {
+        type: import('vue').PropType<boolean>;
+    };
+    type: {
+        type: import('vue').PropType<"info" | "success" | "warning" | "danger" | "primary">;
+    };
+    color: {
         type: import('vue').PropType<string>;
     };
-    autofocus: {
-        type: import('vue').PropType<boolean>;
-    };
-    useThrottle: {
-        type: import('vue').PropType<boolean>;
-        default: boolean;
-    };
-    throttleDuration: {
-        type: import('vue').PropType<number>;
-        default: number;
-    };
-}>> & Readonly<{
-    onClick?: ((val: MouseEvent) => any) | undefined;
-}>, {
-    ref: import('vue').Ref<HTMLButtonElement | void>;
-    disabled: import('vue').ComputedRef<boolean>;
-    size: import('vue').ComputedRef<import('../Button/types').ButtonSize | "">;
-    type: import('vue').ComputedRef<import('../Button/types').ButtonType | "">;
-}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {
-    click: (val: MouseEvent) => void;
-}, string, {
-    tag: string | import('vue').Component;
-    nativeType: import('../Button/types').NativeType;
-    useThrottle: boolean;
-    throttleDuration: number;
-}, {}, string, {}, import('vue').GlobalComponents, import('vue').GlobalDirectives, string, import('vue').ComponentProvideOptions> & import('vue').VNodeProps & import('vue').AllowedComponentProps & import('vue').ComponentCustomProps & (new () => {
-    $slots: Readonly<Record<string, any>> & Record<string, any>;
-}) & import('vue').Plugin;
+}>> & Readonly<{}>, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {}, string, {}, {}, string, {}, import('vue').GlobalComponents, import('vue').GlobalDirectives, string, import('vue').ComponentProvideOptions> & import('vue').VNodeProps & import('vue').AllowedComponentProps & import('vue').ComponentCustomProps & import('vue').Plugin;
 export * from './types';
